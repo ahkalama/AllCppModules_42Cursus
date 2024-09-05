@@ -18,7 +18,7 @@ ShrubberyCreationForm &ShrubberyCreationForm::operator=(const ShrubberyCreationF
 }
 
 void ShrubberyCreationForm::specificExecute(void) const {
-    std::ofstream o((_target + ".shrubbery").c_str());
+    std::ofstream o((_target + ".shrubbery"));
 
     o << "                                                         .\n";
     o << "                                              .         ;  \n";
