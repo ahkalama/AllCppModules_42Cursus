@@ -5,7 +5,7 @@ RM		= rm -rf
 HEADER	= PmergeMe.hpp
 SRCS    = PmergeMe.cpp main.cpp
 OBJS    = $(SRCS:.cpp=.o)
-asdas
+
 all: coffee $(NAME)
 
 $(NAME): $(OBJS)
